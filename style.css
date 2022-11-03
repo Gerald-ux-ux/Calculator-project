@@ -5,15 +5,15 @@ html{
 
 *,
 *::before,
-*::after {
+*::after{
     box-sizing: inherit;
     margin: 0;
     padding: 0;
 }
 
-body {
+body{
     align-items: center;
-    background: linear-gradient(320deg, #a0649b, #ffffff);
+    background: linear-gradient(320deg, #eb92be, #ffef78, #63c9b4);
     display: flex;
     font-family: 'Dosis', sans-serif;
     font-display: swap;
@@ -21,30 +21,28 @@ body {
     justify-content: center;
 }
 
-.wrapper {
+.wrapper{
     backdrop-filter: blur(5.5px);
     -webkit-backdrop-filter: blur(5.5px);
-    background: rgba(255, 255, 255, 0.75);
-    border: 1px solid rgba(255, 255, 255, 0.01); 
     border-radius: 16px;
-    box-shadow: 0 4 30px rgba(35, 35, 35, 0.1);
-    color: black;
+    box-shadow: 0 4px 30px rgba(35, 35, 35, 0.1);
+    color: #232323;
     backdrop-filter: blur(4px);
     -webkit-backdrop-filter: blur(4px);
     background: rgba(255, 255, 255, 0.30);
-    border: 1px solid rgba(255, 255, 255, 0.34); 
+    border: 1px solid rgba(255, 255, 255, 0.34);
     flex-basis: 400px;
     height: 540px;
-    padding: 20px, 35px;
+    padding: 20px 35px;
 }
 
 .screen{
     backdrop-filter: blur(5.5px);
     -webkit-backdrop-filter: blur(5.5px);
     background: rgba(255, 255, 255, 0.75);
-    border: 1px solid rgba(255, 255,255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.01);
     border-radius: 16px;
-    box-shadow: 0 4 30px rgba(35, 35, 35, 0.1);
+    box-shadow: 0 4px 30px rgba(35, 35, 35, 0.1);
     color: #232323;
     font-size: 35px;
     overflow: auto;
@@ -65,8 +63,8 @@ body {
     background: rgba(255, 255, 255, 0.75);
     border: 1px solid rgba(255, 255, 255, 0.01);
     border-radius: 16px;
-    box-shadow: 0 4 30px rgba(35, 35, 35, 0.1);
-    color: black;
+    box-shadow: 0 4px 30px rgba(35, 35, 35, 0.1);
+    color: #232323;
     flex-basis: 20%;
     font-family: inherit;
     font-size: 24px;
@@ -80,7 +78,7 @@ body {
     border: 1px solid rgba(255, 255, 255, 0.01);
     border-radius: 16px;
     box-shadow: 0 4px 30px rgba(35, 35, 35, 0.1);
-    color: #ffffff;
+    color: #fff;
     background: #d72880;
 }
 
