@@ -1,3 +1,12 @@
+const btn = document.querySelector(".calc-button double")
+
+console.log(btn);
+
+document.addEventListener("click", () =>{
+    location.reload();
+})
+
+
 let runningTotal = 0;
 let buffer = "0";
 let previousOperator;
