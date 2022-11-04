@@ -1,8 +1,8 @@
-const btn = document.querySelector(".calc-button double")
+const btn = document.querySelector(".double")
 
 console.log(btn);
 
-document.addEventListener("click", () =>{
+btn.addEventListener("click", () =>{
     location.reload();
 })
 
