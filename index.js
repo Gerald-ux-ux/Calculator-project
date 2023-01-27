@@ -22,14 +22,14 @@ function buttonClick(value){
     screen.innerText = buffer;
 }
 
-function handleSymbol(symbol){
-    switch(symbol){
+function handleSymbol(symbol) {
+    switch (symbol) {
         case 'C':
             buffer = '0';
             runningTotal = 0;
             break;
         case '=':
-            if(previousOperator === null){
+            if (previousOperator === null) {
                 return
             }
             flushOperation(parseInt(buffer));
@@ -38,9 +38,9 @@ function handleSymbol(symbol){
             runningTotal = 0;
             break;
         case '←':
-            if(buffer.length ===1){
+            if (buffer.length === 1) {
                 buffer = '0';
-            }else{
+            } else {
                 buffer = buffer.substring(0, buffer.length - 1);
             }
             break;
@@ -51,7 +51,7 @@ function handleSymbol(symbol){
             handleMath(symbol);
             break;
     }
-}
+};
 
 function handleMath(symbol){
     if(buffer === '0'){
